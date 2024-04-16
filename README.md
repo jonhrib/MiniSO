@@ -53,7 +53,7 @@ Desenvolvimento 3ª aula:
      - Instalar a VirtualBox, versão 5.2.44, disponível através do link https://www.virtualbox.org/wiki/Download_Old_Builds_5_2, clicando em "Windows hosts".
      - Com isso, precisamos que a máquina virtual reconheça nosso pendrive usado, para isso, devemos utilizar linhas de comando no cmd:
     
-    Linhas de comando
+      Linhas de comando    
       1. cd %programfiles%\oracle\virtualbox
       2. VBoxManage internalcommands createrawvmdk -filename "%USERPROFILE%"\.VirtualBox\usb.vmdk -rawdisk \\.\PhysicalDrive [numero]
 
@@ -66,7 +66,7 @@ Desenvolvimento 3ª aula:
     - Importante ressaltar que, para gerar o boot.bin, devemos transformar boot.asm através do nasm, com o código no cmd:
 
     Linhas de comando
-      1. nasm -f bin boot.asm -o boot.bin
+    1. nasm -f bin boot.asm -o boot.bin
 
 Autores:
   -Emilaine Prado Correia Fagundes, João Vitor Souza Ribeiro e Vinicius Ferreira Couto.
