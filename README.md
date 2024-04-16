@@ -68,5 +68,4 @@ Desenvolvimento 3ª aula:
           Linhas de comando
           nasm -f bin boot.asm -o boot.bin
 
-Autores:
-  -Emilaine Prado Correia Fagundes, João Vitor Souza Ribeiro e Vinicius Ferreira Couto.
+Autores: Emilaine Prado Correia Fagundes, João Vitor Souza Ribeiro e Vinicius Ferreira Couto.
