@@ -29,9 +29,9 @@ Desenvolvimento 2ª aula *:
 
   1 - O erro inicial (falta de registro do "MSCOMCTL.OCX") pôde ser solucionado com a instalação de uma biblioteca e uma ativação do tipo "Controle ActiveX", ambos foram       encontrados em uma série de tutoriais disponíveis virtualmente, como no link: https://www.youtube.com/watch?v=ZSJnJULnrng; Em computadores com o sistema operacional de 64 bits, deve-se utilizar as seguintes linhas de comando, no cmd acessado como administrador:
  
-  Linhas de comando:
-  1. cd C:\Windows\SysWOW64
-  2. C:\Windows\SysWOW64 regsvr32 mscomctl.ocx
+      Linhas de comando:
+      1. cd C:\Windows\SysWOW64
+      2. C:\Windows\SysWOW64 regsvr32 mscomctl.ocx
 
   Após a instalação da DLL através do cmd, utilize o instalador ascentive-library.
 
@@ -39,9 +39,9 @@ Desenvolvimento 2ª aula *:
 
   2 - Após a solução do primeiro erro, uma nova mensagem é exibida, agora indicando que o componente "COMDLG32.OCX" estaria ausente, assim, podemos resolver de maneira parecida com o anterior. O vídeo https://www.youtube.com/watch?v=_Fpp6lYpS-U traz uma boa explicação sobre como resolver esta questão, sendo necessário instalar um arquivo de ativação através do link https://web.archive.org/web/20190402051129/http://www.bioinformatics.org/snp-tools-excel/install_comdlg32.htm. Ao instalar o arquivo, em computadores com o sistema operacional de 64 bits, devemos transferir o documento até a pasta de origem "SysWOW64", após, deve-se utilizar as seguintes linhas de comando, no cmd acessado como administrador:
 
-  Linhas de comando:
-  1. cd C:\Windows\SysWOW64
-  2. C:\Windows\SysWOW64 regsvr32 comdlg32.ocx
+      Linhas de comando:
+      1. cd C:\Windows\SysWOW64
+      2. C:\Windows\SysWOW64 regsvr32 comdlg32.ocx
 
   Os arquivos mencionados para essa solução estão disponíveis em: https://drive.google.com/drive/folders/1gI9B59-HFAmwxaWLpeQTu-fW07-RxkaL?usp=sharing
 
@@ -54,8 +54,8 @@ Desenvolvimento 3ª aula:
      - Com isso, precisamos que a máquina virtual reconheça nosso pendrive usado, para isso, devemos utilizar linhas de comando no cmd:
     
             Linhas de comando    
-            cd %programfiles%\oracle\virtualbox
-            VBoxManage internalcommands createrawvmdk -filename "%USERPROFILE%"\.VirtualBox\usb.vmdk -rawdisk \\.\PhysicalDrive [numero]
+            1. cd %programfiles%\oracle\virtualbox
+            2. VBoxManage internalcommands createrawvmdk -filename "%USERPROFILE%"\.VirtualBox\usb.vmdk -rawdisk \\.\PhysicalDrive [numero]
 
     - Substitua o campo [numero] pelo número do disco.
     - Agora crie sua máquina virtual com os dados desejados, selecionando a opção "Utilizar um disco rígido virtual existente", escolhemos o pendrive e confirmamos.
@@ -66,6 +66,6 @@ Desenvolvimento 3ª aula:
     - Importante ressaltar que, para gerar o boot.bin, devemos transformar boot.asm através do nasm, com o código no cmd:
 
           Linhas de comando
-          nasm -f bin boot.asm -o boot.bin
+          1. nasm -f bin boot.asm -o boot.bin
 
 Autores: Emilaine Prado Correia Fagundes, João Vitor Souza Ribeiro e Vinicius Ferreira Couto.
