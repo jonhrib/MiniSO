@@ -55,6 +55,7 @@ Desenvolvimento 3ª aula:
     
       Linhas de comando    
       1 - cd %programfiles%\oracle\virtualbox
+    
       2 - VBoxManage internalcommands createrawvmdk -filename "%USERPROFILE%"\.VirtualBox\usb.vmdk -rawdisk \\.\PhysicalDrive [numero]
 
     - Substitua o campo [numero] pelo número do disco.
