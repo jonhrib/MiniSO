@@ -54,8 +54,8 @@ Desenvolvimento 3ª aula:
      - Com isso, precisamos que a máquina virtual reconheça nosso pendrive usado, para isso, devemos utilizar linhas de comando no cmd:
     
       Linhas de comando
-        1. cd %programfiles%\oracle\virtualbox
-        2. VBoxManage internalcommands createrawvmdk -filename "%USERPROFILE%"\.VirtualBox\usb.vmdk -rawdisk \\.\PhysicalDrive [numero]
+      1. cd %programfiles%\oracle\virtualbox
+      2. VBoxManage internalcommands createrawvmdk -filename "%USERPROFILE%"\.VirtualBox\usb.vmdk -rawdisk \\.\PhysicalDrive [numero]
 
     - Substitua o campo [numero] pelo número do disco.
     - Agora crie sua máquina virtual com os dados desejados, selecionando a opção "Utilizar um disco rígido virtual existente", escolhemos o pendrive e confirmamos.
@@ -66,7 +66,7 @@ Desenvolvimento 3ª aula:
     - Importante ressaltar que, para gerar o boot.bin, devemos transformar boot.asm através do nasm, com o código no cmd:
 
       Linhas de comando
-        1. nasm -f bin boot.asm -o boot.bin
+      1. nasm -f bin boot.asm -o boot.bin
 
 Autores:
   -Emilaine Prado Correia Fagundes, João Vitor Souza Ribeiro e Vinicius Ferreira Couto.
