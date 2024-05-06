@@ -67,5 +67,7 @@ Desenvolvimento 3ª aula:
 
           Linhas de comando
           1. nasm -f bin boot.asm -o boot.bin
+    - Assim, podemos retornar ao Oracle VM VirtualBox para executar a máquina virtual, criamos ela a partir do botão novo selecionando a versão Windows 7 (64 bits), um tamanho recomendado de 2048 mb e, tudo isso, utilizando o disco rígido (pendrive) conectado, aqui cadastrado como usb.vmdk.
+    - Após a criação, clique em iniciar, ou utilize a tecla T, e aguarde a exibição dos métodos de Hello World na sua tela!
 
 Autores: Emilaine Prado Correia Fagundes, João Vitor Souza Ribeiro e Vinicius Ferreira Couto.
