@@ -1,7 +1,5 @@
 # Mini-SO
 
-![Texto Alternativo](https://i.ibb.co/XY43GmZ/Captura-de-tela-2024-05-07-095909.png)
-
 Objetivo do SO: 
   - Criar um sistema de desenhos através de comandos interativos parecidos com a IDE "SuperLogo".
   - Não será desenvolvido um sistema completo de arquivos, apenas um sistema onde é possível salvar, editar ou excluir arquivos.
