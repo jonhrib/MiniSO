@@ -1,6 +1,6 @@
 # Mini-SO
 
-![Texto Alternativo]((https://ibb.co/SfxdZqX))
+![Texto Alternativo](https://ibb.co/SfxdZqX)
 
 Objetivo do SO: 
   - Criar um sistema de desenhos através de comandos interativos parecidos com a IDE "SuperLogo".
